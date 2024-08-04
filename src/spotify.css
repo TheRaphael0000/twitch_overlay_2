@@ -1,0 +1,53 @@
+.spotify {
+    background-color: rgba(17, 17, 17, 0.5);
+    /* border-top: 0 !important;
+    border-left: 0 !important; */
+    /* border: 3px solid rgba(255, 0, 255, 0.5); */
+    color: whitesmoke;
+    font-size: 1.6em;
+    height: 300px;
+    display: flex;
+}
+
+.track_infos {
+    flex: 1 1 100%;
+    min-width: 0;
+    margin: 30px;
+}
+
+.album {
+    float: left;
+}
+
+.album img {
+    display: block;
+}
+
+.track {
+    font-weight: bold;
+    max-width: 100%;
+    font-size: 2em;
+    margin: 50px 10px;
+}
+
+.artists {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 30px 10px;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bar {
+    width: 100%;
+    background-color: rgba(255, 0, 255, 0.2);
+}
+
+.barProgress {
+    background-color: fuchsia;
+    height: 5px;
+}
