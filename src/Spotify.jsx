@@ -1,4 +1,4 @@
-import { spotify_id, spotify_redirect_uri } from "../secrets"
+import { spotify_id, spotify_redirect_uri } from "../config"
 import { useState, useEffect } from 'react';
 import "./spotify.css"
 
